@@ -9,7 +9,7 @@ imshow(img_name)
 
 %% RGB image
 close all; clearvars; clc;
-img_name = './files/images/lena.tif';
+img_name = './files/images/lena.jpg';
 input_data = imread(img_name);
 figure
 imshow(img_name)
