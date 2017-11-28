@@ -12,7 +12,7 @@ for i in [3, 5, 10, 15]:
     centroids, clusters = k_means.fit()
 
 #%% RGB image
-file = './files/images/lena.tif'
+file = './files/images/lena.jpg'
 
 data = imread(file)
 for i in [3, 5, 10, 15]:
