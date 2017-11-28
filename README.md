@@ -13,20 +13,67 @@ file is also included by setting the ‘gif’ argument to true. L1, L2, and Cos
 |:-----------------:|:----------------:|
 | ![][pep original] | ![][pep 3 clust] |
 
-|    5 Clusters    |    10 Clusters    |
+|    5 Clusters    |    15 Clusters    |
 |:----------------:|:-----------------:|
 | ![][pep 5 clust] | ![][pep 10 clust] |
 
 
+|      Original     |    3 Clusters    |
+|:-----------------:|:----------------:|
+| ![][lena original] | ![][lena 3 clust] |
+
+|    5 Clusters    |    15 Clusters    |
+|:----------------:|:-----------------:|
+| ![][lena 5 clust] | ![][lena 10 clust] |
 
 
+|      Original     |    2 Clusters    |
+|:-----------------:|:----------------:|
+| ![][lena gray original] | ![][lena gray 2 clust] |
+
+|    4 Clusters    |    8 Clusters    |
+|:----------------:|:-----------------:|
+| ![][lena gray 4 clust] | ![][lena gray 8 clust] |
 
 
+|      2 Clusters     |    4 Clusters    |
+|:-----------------:|:----------------:|
+| ![][blob2d 2 clust] | ![][blob2d 4 clust] |
+
+|    6 Clusters    |    8 Clusters    |
+|:----------------:|:-----------------:|
+| ![][blob2d 6 clust] | ![][blob2d 8 clust] |
 
 
+|      2 Clusters     |    4 Clusters    |
+|:-----------------:|:----------------:|
+| ![][blob3d 2 clust] | ![][blob3d 4 clust] |
 
+|    6 Clusters    |    8 Clusters    |
+|:----------------:|:-----------------:|
+| ![][blob3d 6 clust] | ![][blob3d 8 clust] |
 
-[pep original]: https://github.com/IsaacCorley/K-means-Clustering-GIF-Visualization-Tool/raw/master/files/peppers/peppers.png
-[pep 3 clust]: https://github.com/IsaacCorley/K-means-Clustering-GIF-Visualization-Tool/raw/master/files/peppers/peppers_3_clust_.gif
-[pep 5 clust]: https://github.com/IsaacCorley/K-means-Clustering-GIF-Visualization-Tool/raw/master/files/peppers/peppers_5_clust_.gif
-[pep 10 clust]: https://github.com/IsaacCorley/K-means-Clustering-GIF-Visualization-Tool/raw/master/files/peppers/peppers_10_clust_.gif
+[pep original]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/images/peppers.jpg
+[pep 3 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/peppers/k-means_3_clusters.gif
+[pep 5 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/peppers/k-means_5_clusters.gif
+[pep 15 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/peppers/k-means_15_clusters.gif
+
+[lena_original]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/images/lena.tif
+[lena 3 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/lena/k-means_3_clusters.gif
+[lena 5 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/lena/k-means_5_clusters.gif
+[lena 15 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/lena/k-means_15_clusters.gif
+
+[lena gray original]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/images/lena_gray.jpg
+[lena gray 2 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/lena_gray/k-means_2_clusters.gif
+[lena gray 4 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/lena_gray/k-means_4_clusters.gif
+[lena gray 8 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/lena_gray/k-means_8_clusters.gif
+
+[blob2d 2 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/blob2D/k-means_2_clusters.gif
+[blob2d 4 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/blob2D/k-means_4_clusters.gif
+[blob2d 6 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/blob2D/k-means_6_clusters.gif
+[blob2d 8 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/blob2D/k-means_8_clusters.gif
+
+[blob3d 2 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/blob3D/k-means_2_clusters.gif
+[blob3d 4 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/blob3D/k-means_4_clusters.gif
+[blob3d 6 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/blob3D/k-means_6_clusters.gif
+[blob3d 8 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/blob3D/k-means_8_clusters.gif
