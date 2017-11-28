@@ -38,27 +38,27 @@ file is also included by setting the ‘gif’ argument to true. L1, L2, and Cos
 
 |      2 Clusters     |    4 Clusters    |
 |:-----------------:|:----------------:|
-| ![][blob2d 2 clust] | ![][blob2d 4 clust] |
-
-|    6 Clusters    |    8 Clusters    |
-|:----------------:|:-----------------:|
-| ![][blob2d 6 clust] | ![][blob2d 8 clust] |
-
-
-|      2 Clusters     |    4 Clusters    |
-|:-----------------:|:----------------:|
 | ![][blob3d 2 clust] | ![][blob3d 4 clust] |
 
 |    6 Clusters    |    8 Clusters    |
 |:----------------:|:-----------------:|
 | ![][blob3d 6 clust] | ![][blob3d 8 clust] |
 
+
+|      2 Clusters     |    4 Clusters    |
+|:-----------------:|:----------------:|
+| ![][blob2d 2 clust] | ![][blob2d 4 clust] |
+
+|    6 Clusters    |    8 Clusters    |
+|:----------------:|:-----------------:|
+| ![][blob2d 6 clust] | ![][blob2d 8 clust] |
+
 [pep original]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/images/peppers.jpg
 [pep 3 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/peppers/k-means_3_clusters.gif
 [pep 5 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/peppers/k-means_5_clusters.gif
 [pep 15 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/peppers/k-means_15_clusters.gif
 
-[lena original]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/images/lena.tif
+[lena original]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/images/lena.jpg
 [lena 3 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/lena/k-means_3_clusters.gif
 [lena 5 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/lena/k-means_5_clusters.gif
 [lena 15 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/lena/k-means_15_clusters.gif
