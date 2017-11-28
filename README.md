@@ -15,7 +15,7 @@ file is also included by setting the ‘gif’ argument to true. L1, L2, and Cos
 
 |    5 Clusters    |    15 Clusters    |
 |:----------------:|:-----------------:|
-| ![][pep 5 clust] | ![][pep 10 clust] |
+| ![][pep 5 clust] | ![][pep 15 clust] |
 
 
 |      Original     |    3 Clusters    |
@@ -24,7 +24,7 @@ file is also included by setting the ‘gif’ argument to true. L1, L2, and Cos
 
 |    5 Clusters    |    15 Clusters    |
 |:----------------:|:-----------------:|
-| ![][lena 5 clust] | ![][lena 10 clust] |
+| ![][lena 5 clust] | ![][lena 15 clust] |
 
 
 |      Original     |    2 Clusters    |
@@ -58,7 +58,7 @@ file is also included by setting the ‘gif’ argument to true. L1, L2, and Cos
 [pep 5 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/peppers/k-means_5_clusters.gif
 [pep 15 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/peppers/k-means_15_clusters.gif
 
-[lena_original]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/images/lena.tif
+[lena original]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/images/lena.tif
 [lena 3 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/lena/k-means_3_clusters.gif
 [lena 5 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/lena/k-means_5_clusters.gif
 [lena 15 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/lena/k-means_15_clusters.gif
