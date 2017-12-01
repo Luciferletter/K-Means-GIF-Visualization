@@ -2,7 +2,7 @@
 Tool for Visualizing K-means Clustering of Color/Grayscale Images or 2D/3D Data
 
 ------------------
-## k-means
+### K-means
 K-means is an unsupervised learning algorithm with an objective of partitioning n observations into k clusters. Observations are grouped into clusters based on the minimum Euclidean (L2) distance from an observation to a cluster centroid, or average of all observations in a cluster; hence the name k-means. Centroids are initially selected at random from the dataset, clusters are formed, and then centroids are iteratively updated by averaging the new observations in each cluster and clustering new observations. This process is typically repeated until the clusters have reached a state of convergence (centroids are equal to previous iteration centroids) or for some number of iterations specified by the user.
 
 Pseudocode looks similar to this:
@@ -19,13 +19,18 @@ for iterations
     break
 
 ```
+
+K-means can also be extended for clustering of image pixel color values by treating a RGB image as a 2-dimensional array with 3 features or a grayscale image with 1 feature.
+
 ------------------
-## k-means for images
-By treating a RGB image as a 2-dimensional array with 3 features or a grayscale image with 1 feature, clustering of pixel values can be performed. To view the image clusters, pixel values are set equivalent to the centroids of their respective clusters. K-means image clustering is popular for its applications in :
+### Applications
 - __Image Segmentation:__
   - [K-means & Image Segmentation](https://www.youtube.com/watch?v=yR7k19YBqiw)
-  - 
-- __Image Compression:__ 
+- __Image Compression:__
+- __Image Compression:__
+- __Image Compression:__
+- __Image Compression:__
+- __Image Compression:__
 
 ------------------
 ## Examples
