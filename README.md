@@ -22,6 +22,13 @@ for iterations
 
 K-means can also be extended for clustering of pixel color values of images by treating RGB images as 2-dimensional arrays with 3 features or a grayscale images with 1 feature.
 
+### Python Class Arguments
+- __data:__ Input data (numpy array)
+- __num_clust:__ Number of k-clusters to partition dataset into
+- __max_iters:__ Number of iterations to loop for (Note convergence being reached will end clustering)
+- __is_image:__ Set True if input data is an image
+- __random_image_color:__ Set True if desired for image cluster pixels to be distinct
+
 ------------------
 ### Unsupervised Clustering Applications
 - __[Image Segmentation](https://www.youtube.com/watch?v=yR7k19YBqiw):__
