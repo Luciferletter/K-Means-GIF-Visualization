@@ -23,11 +23,11 @@ for iterations
 K-means can also be extended for clustering of pixel color values of images by treating RGB images as 2-dimensional arrays with 3 features or a grayscale images with 1 feature.
 
 ------------------
-### Applications
+### Unsupervised Clustering Applications
 - __Image Segmentation:__
   - [K-means & Image Segmentation](https://www.youtube.com/watch?v=yR7k19YBqiw)
-- __Image Compression:__
-- __Image Compression:__
+- __Image Compression(Quantization):__
+- __[Netflix Recommendations](https://qz.com/939195/netflix-nflx-divides-its-93-million-users-around-the-world-not-by-geography-but-into-1300-taste-communities/):__
 - __Image Compression:__
 - __Image Compression:__
 - __Image Compression:__
