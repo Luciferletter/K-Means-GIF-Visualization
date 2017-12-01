@@ -20,7 +20,7 @@ for iterations
 
 ```
 
-K-means can also be extended for clustering of image pixel color values by treating a RGB image as a 2-dimensional array with 3 features or a grayscale image with 1 feature.
+K-means can also be extended for clustering of pixel color values of images by treating RGB images as 2-dimensional arrays with 3 features or a grayscale images with 1 feature.
 
 ------------------
 ### Applications
