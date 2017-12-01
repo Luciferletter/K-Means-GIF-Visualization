@@ -1,13 +1,32 @@
 # K-Means-GIF-Visualization
-Tool for Visualizing K-Means Clustering of Color/Grayscale Images or 2D/3D Data
+Tool for Visualizing K-means Clustering of Color/Grayscale Images or 2D/3D Data
+------------------
+## k-means
+K-means is an unsupervised learning algorithm with an objective of partitioning n observations into k clusters. Observations are grouped into clusters based on the minimum Euclidean (L2) distance from an observation to a cluster centroid, or average of all observations in a cluster; hence the name k-means. Centroids are initially selected at random from the dataset, clusters are formed, and then centroids are iteratively updated by averaging the new observations in each cluster and clustering new observations. This process is typically repeated until the clusters have reached a state of convergence (centroids are equal to previous iteration centroids) or for some number of iterations specified by the user.
 
-The kmeans_nd.m function performs K-means clustering on data with an arbitrary number of features.  The function provides support for 
-plotting data with 2-3 features only. Support for k-means clustering on image data is also included by setting the ‘image’ argument to true 
-and the ‘image_fname’ argument to the desired filename. The ability to save the clustered plots or images at each iteration into a .gif 
-file is also included by setting the ‘gif’ argument to true. L1, L2, and Cosine distance similarity metrics are supported as well via the 
-‘metric’ argument. The outputs are the clusters, the cluster indices and the centroids of each cluster.
+Psuedocode looks similar to this:
+
+```python
+initialize centroids randomly
+assign observations to clusters with nearest centroid
+
+for maximum # of iterations
+  centroids = average of cluster observations
+  assign observations to clusters with nearest centroid
   
-# Examples
+  if centroids unchanged
+    end
+
+```
+
+------------------
+## k-means for images
+By treating a RGB image as a 2-dimensional array with 3 features or a grayscale image with 1 feature, clustering of pixel values can be performed. To view the image clusters, pixel values are set equivalent to the centroids of their respective clusters. K-means image clustering is popular for its applications in :
+- __Image Segmentation:__ 
+- __Image Compression:__ 
+
+------------------
+## Examples
 
 |      Original     |    3 Clusters    |
 |:-----------------:|:----------------:|
@@ -17,6 +36,7 @@ file is also included by setting the ‘gif’ argument to true. L1, L2, and Cos
 |:----------------:|:-----------------:|
 | ![][pep 5 clust] | ![][pep 15 clust] |
 
+------------------
 
 |      Original     |    3 Clusters    |
 |:-----------------:|:----------------:|
@@ -26,6 +46,7 @@ file is also included by setting the ‘gif’ argument to true. L1, L2, and Cos
 |:----------------:|:-----------------:|
 | ![][lena 5 clust] | ![][lena 15 clust] |
 
+------------------
 
 |      Original     |    2 Clusters    |
 |:-----------------:|:----------------:|
@@ -35,6 +56,7 @@ file is also included by setting the ‘gif’ argument to true. L1, L2, and Cos
 |:----------------:|:-----------------:|
 | ![][lena gray 4 clust] | ![][lena gray 8 clust] |
 
+------------------
 
 |      2 Clusters     |    4 Clusters    |
 |:-----------------:|:----------------:|
@@ -44,6 +66,7 @@ file is also included by setting the ‘gif’ argument to true. L1, L2, and Cos
 |:----------------:|:-----------------:|
 | ![][blob3d 6 clust] | ![][blob3d 8 clust] |
 
+------------------
 
 |      2 Clusters     |    4 Clusters    |
 |:-----------------:|:----------------:|
