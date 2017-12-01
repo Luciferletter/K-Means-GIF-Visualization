@@ -25,7 +25,7 @@ K-means can also be extended for clustering of pixel color values of images by t
 ------------------
 ### Unsupervised Clustering Applications
 - __[Image Segmentation](https://www.youtube.com/watch?v=yR7k19YBqiw):__
-- __Image Compression(Quantization):__
+- __Image Compression/Quantization:__
 - __[Netflix Recommendations](https://qz.com/939195/netflix-nflx-divides-its-93-million-users-around-the-world-not-by-geography-but-into-1300-taste-communities/):__
 - __Anomaly Detection:__
 - __Search Engine Results:__
