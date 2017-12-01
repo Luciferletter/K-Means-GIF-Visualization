@@ -1,5 +1,5 @@
 # K-Means-GIF-Visualization
-Visualizing K-means Clustering of Color/Grayscale Images or 2D/3D Data
+Tool for Visualizing K-means Clustering of Color/Grayscale Images or 2D/3D Data
 
 ------------------
 ## k-means
