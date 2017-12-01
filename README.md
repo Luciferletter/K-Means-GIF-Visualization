@@ -1,5 +1,6 @@
 # K-Means-GIF-Visualization
-## Tool for Visualizing K-means Clustering of Color/Grayscale Images or 2D/3D Data
+Visualizing K-means Clustering of Color/Grayscale Images or 2D/3D Data
+
 ------------------
 ## k-means
 K-means is an unsupervised learning algorithm with an objective of partitioning n observations into k clusters. Observations are grouped into clusters based on the minimum Euclidean (L2) distance from an observation to a cluster centroid, or average of all observations in a cluster; hence the name k-means. Centroids are initially selected at random from the dataset, clusters are formed, and then centroids are iteratively updated by averaging the new observations in each cluster and clustering new observations. This process is typically repeated until the clusters have reached a state of convergence (centroids are equal to previous iteration centroids) or for some number of iterations specified by the user.
