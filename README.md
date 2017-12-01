@@ -8,21 +8,23 @@ Psuedocode looks similar to this:
 
 ```python
 initialize centroids randomly
-assign observations to clusters with nearest centroid
+assign observations to nearest centroid cluster
 
-for maximum # of iterations
-  centroids = average of cluster observations
-  assign observations to clusters with nearest centroid
+for iterations
+  centroids = average of new cluster observations
+  assign observations to nearest centroid cluster
   
   if centroids unchanged
-    end
+    break
 
 ```
 
 ------------------
 ## k-means for images
 By treating a RGB image as a 2-dimensional array with 3 features or a grayscale image with 1 feature, clustering of pixel values can be performed. To view the image clusters, pixel values are set equivalent to the centroids of their respective clusters. K-means image clustering is popular for its applications in :
-- __Image Segmentation:__ 
+- __Image Segmentation:__
+  - [K-means & Image Segmentation](https://www.youtube.com/watch?v=yR7k19YBqiw)
+  - 
 - __Image Compression:__ 
 
 ------------------
