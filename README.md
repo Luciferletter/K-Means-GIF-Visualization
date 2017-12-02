@@ -39,36 +39,70 @@ K-means can also be extended for clustering of pixel color values of images by t
 
 ------------------
 ## Examples
+#### Self-driving Car
+|      Original     |    2 Clusters    |
+|:-----------------:|:----------------:|
+| ![][traffic original] | ![][traffic 2 clust] |
 
+|    3 Clusters    |    6 Clusters    |
+|:----------------:|:-----------------:|
+| ![][traffic 3 clust] | ![][traffic 6 clust] |
+
+------------------
+#### Security Camera
+|      Original     |    2 Clusters    |
+|:-----------------:|:----------------:|
+| ![][sec cam original] | ![][sec cam 2 clust] |
+
+|    3 Clusters    |    4 Clusters    |
+|:----------------:|:-----------------:|
+| ![][sec cam 3 clust] | ![][sec cam 4 clust] |
+
+------------------
+#### Peppers
 |      Original     |    3 Clusters    |
 |:-----------------:|:----------------:|
 | ![][pep original] | ![][pep 3 clust] |
 
-|    5 Clusters    |    15 Clusters    |
+|    7 Clusters    |    15 Clusters    |
 |:----------------:|:-----------------:|
-| ![][pep 5 clust] | ![][pep 15 clust] |
+| ![][pep 7 clust] | ![][pep 15 clust] |
 
 ------------------
+#### Man
+
+|      Original     |    2 Clusters    |
+|:-----------------:|:----------------:|
+| ![][man original] | ![][man 2 clust] |
+
+|    5 Clusters    |    8 Clusters    |
+|:----------------:|:-----------------:|
+| ![][man 5 clust] | ![][man 8 clust] |
+
+------------------
+#### Lena
 
 |      Original     |    3 Clusters    |
 |:-----------------:|:----------------:|
 | ![][lena original] | ![][lena 3 clust] |
 
-|    5 Clusters    |    15 Clusters    |
+|    7 Clusters    |    15 Clusters    |
 |:----------------:|:-----------------:|
-| ![][lena 5 clust] | ![][lena 15 clust] |
+| ![][lena 7 clust] | ![][lena 15 clust] |
 
 ------------------
+#### Owl
 
 |      Original     |    2 Clusters    |
 |:-----------------:|:----------------:|
-| ![][lena gray original] | ![][lena gray 2 clust] |
+| ![][owl original] | ![][owl 2 clust] |
 
-|    4 Clusters    |    8 Clusters    |
+|    3 Clusters    |    6 Clusters    |
 |:----------------:|:-----------------:|
-| ![][lena gray 4 clust] | ![][lena gray 8 clust] |
+| ![][owl 3 clust] | ![][owl 6 clust] |
 
 ------------------
+#### 3D Blobs
 
 |      2 Clusters     |    4 Clusters    |
 |:-----------------:|:----------------:|
@@ -79,6 +113,7 @@ K-means can also be extended for clustering of pixel color values of images by t
 | ![][blob3d 6 clust] | ![][blob3d 8 clust] |
 
 ------------------
+#### 2D Blobs
 
 |      2 Clusters     |    4 Clusters    |
 |:-----------------:|:----------------:|
@@ -90,18 +125,33 @@ K-means can also be extended for clustering of pixel color values of images by t
 
 [pep original]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/images/peppers.jpg
 [pep 3 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/peppers/k-means_3_clusters.gif
-[pep 5 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/peppers/k-means_5_clusters.gif
+[pep 7 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/peppers/k-means_7_clusters.gif
 [pep 15 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/peppers/k-means_15_clusters.gif
 
 [lena original]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/images/lena.jpg
 [lena 3 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/lena/k-means_3_clusters.gif
-[lena 5 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/lena/k-means_5_clusters.gif
+[lena 7 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/lena/k-means_7_clusters.gif
 [lena 15 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/lena/k-means_15_clusters.gif
 
-[lena gray original]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/images/lena_gray.jpg
-[lena gray 2 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/lena_gray/k-means_2_clusters.gif
-[lena gray 4 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/lena_gray/k-means_4_clusters.gif
-[lena gray 8 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/lena_gray/k-means_8_clusters.gif
+[man original]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/images/man.jpg
+[man 2 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/man/k-means_2_clusters.gif
+[man 5 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/man/k-means_5_clusters.gif
+[man 8 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/man/k-means_8_clusters.gif
+
+[owl original]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/images/owl.jpg
+[owl 2 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/owl/k-means_2_clusters.gif
+[owl 3 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/owl/k-means_3_clusters.gif
+[owl 6 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/owl/k-means_6_clusters.gif
+
+[sec cam original]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/images/security_camera.jpg
+[sec cam 2 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/security_camera/k-means_2_clusters.gif
+[sec cam 3 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/security_camera/k-means_3_clusters.gif
+[sec cam 4 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/security_camera/k-means_4_clusters.gif
+
+[traffic original]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/images/traffic.jpg
+[traffic 2 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/traffic/k-means_2_clusters.gif
+[traffic 3 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/traffic/k-means_5_clusters.gif
+[traffic 6 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/traffic/k-means_8_clusters.gif
 
 [blob2d 2 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/blob2D/k-means_2_clusters.gif
 [blob2d 4 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/blob2D/k-means_4_clusters.gif
