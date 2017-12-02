@@ -59,14 +59,15 @@ K-means can also be extended for clustering of pixel color values of images by t
 | ![][sec cam 3 clust] | ![][sec cam 4 clust] |
 
 ------------------
-### Peppers
-|      Original     |    3 Clusters    |
-|:-----------------:|:----------------:|
-| ![][pep original] | ![][pep 3 clust] |
+### Owl
 
-|    7 Clusters    |    15 Clusters    |
+|      Original     |    2 Clusters    |
+|:-----------------:|:----------------:|
+| ![][owl original] | ![][owl 2 clust] |
+
+|    3 Clusters    |    6 Clusters    |
 |:----------------:|:-----------------:|
-| ![][pep 7 clust] | ![][pep 15 clust] |
+| ![][owl 3 clust] | ![][owl 6 clust] |
 
 ------------------
 ### Man
@@ -80,6 +81,16 @@ K-means can also be extended for clustering of pixel color values of images by t
 | ![][man 5 clust] | ![][man 8 clust] |
 
 ------------------
+### Peppers
+|      Original     |    3 Clusters    |
+|:-----------------:|:----------------:|
+| ![][pep original] | ![][pep 3 clust] |
+
+|    7 Clusters    |    15 Clusters    |
+|:----------------:|:-----------------:|
+| ![][pep 7 clust] | ![][pep 15 clust] |
+
+------------------
 ### Lena
 
 |      Original     |    3 Clusters    |
@@ -89,17 +100,6 @@ K-means can also be extended for clustering of pixel color values of images by t
 |    7 Clusters    |    15 Clusters    |
 |:----------------:|:-----------------:|
 | ![][lena 7 clust] | ![][lena 15 clust] |
-
-------------------
-### Owl
-
-|      Original     |    2 Clusters    |
-|:-----------------:|:----------------:|
-| ![][owl original] | ![][owl 2 clust] |
-
-|    3 Clusters    |    6 Clusters    |
-|:----------------:|:-----------------:|
-| ![][owl 3 clust] | ![][owl 6 clust] |
 
 ------------------
 ### 3D Blobs
