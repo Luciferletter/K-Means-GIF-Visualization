@@ -1,6 +1,6 @@
 %% RGB image
 close all; clearvars; clc;
-img_name = './files/images/peppers.png';
+img_name = '../files/images/peppers.png';
 input_data = imread(img_name);
 figure
 imshow(img_name)
@@ -9,7 +9,7 @@ imshow(img_name)
 
 %% RGB image
 close all; clearvars; clc;
-img_name = './files/images/lena.jpg';
+img_name = '../files/images/lena.jpg';
 input_data = imread(img_name);
 figure
 imshow(img_name)
@@ -18,7 +18,7 @@ imshow(img_name)
 
 %% Grayscale image
 close all; clearvars; clc;
-img_name = './files/images/lena_gray.jpg';
+img_name = '../files/images/man.jpg';
 input_data = imread(img_name);
 figure
 imshow(img_name)
