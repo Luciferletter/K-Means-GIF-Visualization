@@ -5,12 +5,16 @@ from imageio import mimwrite
 
 
 class KMeans:
-    def __init__(self, data, num_clust, max_iters, is_image):
+    def __init__(self, data, num_clust=3, max_iters=50,is_image=False,
+                 distinct_colors=False):
         self.data = np.array(data)
         self.num_clust = num_clust
         self.max_iters = max_iters
         self.is_image = is_image
-
+        
+        
+        self.distinct_colors = distinct_colors
+        
         self.converged = False
         self.clusters_idx = None
         self.centroids = []
@@ -32,6 +36,12 @@ class KMeans:
         else:
             self.num_features = 1
 
+        # Generate distinct colors if desired
+        if self.is_image & self.distinct_colors:
+            self.distinct_colors = self.__generate_colors()
+        else:
+            self.distinct_colors = False
+            
         print('Number of Clusters:', self.num_clust)
         print('Number of Iterations:', self.max_iters)
         print('Number of Features:', self.num_features)
@@ -83,7 +93,10 @@ class KMeans:
             
             # Make cluster points equal to pixel value of corresponding centroid
             for cluster in range(len(self.centroids)):
-                cluster_plot[self.clusters_idx == cluster] = self.centroids[cluster]
+                if self.distinct_colors:
+                    cluster_plot[self.clusters_idx == cluster] = self.distinct_colors[cluster]
+                else:
+                    cluster_plot[self.clusters_idx == cluster] = self.centroids[cluster]
             
             # Reshape to original image dimensions
             cluster_plot = np.reshape(cluster_plot, self.image_dims)
@@ -163,9 +176,46 @@ class KMeans:
 
     def __write_gif(self):
         output_file = 'k-means_%d_clusters.gif' % self.num_clust
-        mimwrite(output_file, self.plots, duration=1.0)
+        
+        if self.is_image:
+            mimwrite(output_file, self.plots, duration=0.5)
+        else:
+            mimwrite(output_file, self.plots, duration=1.0)
 
 
+    def __generate_colors(self):
+        # RGB colors
+        if self.num_features == 3:
+            colors = [
+                        (0, 0, 0),       # black
+                        (255, 255, 255), # white
+                        (0, 0, 128),     # navy
+                        (128, 0, 0),     # maroon
+                        (145, 30, 180),  # purple
+                        (70, 240, 240),  # cyan
+                        (60, 180, 75),   # green
+                        (128, 128, 0),   # olive
+                        (128, 128, 128), # grey
+                        (230, 25, 75),   # red
+                        (170, 110, 40),  # brown
+                        (255, 225, 25),  # yellow
+                        (0, 130, 200),   # blue
+                        (240, 50, 230),  # magenta
+                        (255, 250, 200), # beige
+                        (210, 245, 60),  # lime
+                        (250, 190, 190), # pink
+                        (0, 128, 128),   # teal
+                        (230, 190, 255), # lavender
+                        (170, 255, 195), # mint
+                        (255, 215, 180), # coral
+                    ]
+            
+            return colors[0:self.num_clust]
+        # Grayscale colors
+        else:
+            return list(np.linspace(0, 255, self.num_clust))
+        
+        
     def fit(self):
         # Initialize centroids randomly
         self.__initialize_centroids()
