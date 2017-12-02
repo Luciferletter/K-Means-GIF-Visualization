@@ -27,7 +27,7 @@ K-means can also be extended for clustering of pixel color values of images by t
 - __num_clust:__ Number of k-clusters to partition dataset into
 - __max_iters:__ Number of iterations to loop for (Note convergence being reached will end clustering)
 - __is_image:__ Set True if input data is an image
-- __random_image_color:__ Set True if desired for image cluster pixels to be distinct
+- __distinct_colors:__ Set True if desired for image cluster pixels to be distinct
 
 ------------------
 ### Unsupervised Clustering Applications
