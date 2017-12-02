@@ -39,7 +39,7 @@ K-means can also be extended for clustering of pixel color values of images by t
 
 ------------------
 ## Examples
-#### Self-driving Car
+### Self-driving Car
 |      Original     |    2 Clusters    |
 |:-----------------:|:----------------:|
 | ![][traffic original] | ![][traffic 2 clust] |
@@ -49,7 +49,7 @@ K-means can also be extended for clustering of pixel color values of images by t
 | ![][traffic 4 clust] | ![][traffic 6 clust] |
 
 ------------------
-#### Security Camera
+### Security Camera
 |      Original     |    2 Clusters    |
 |:-----------------:|:----------------:|
 | ![][sec cam original] | ![][sec cam 2 clust] |
@@ -59,7 +59,7 @@ K-means can also be extended for clustering of pixel color values of images by t
 | ![][sec cam 3 clust] | ![][sec cam 4 clust] |
 
 ------------------
-#### Peppers
+### Peppers
 |      Original     |    3 Clusters    |
 |:-----------------:|:----------------:|
 | ![][pep original] | ![][pep 3 clust] |
@@ -69,7 +69,7 @@ K-means can also be extended for clustering of pixel color values of images by t
 | ![][pep 7 clust] | ![][pep 15 clust] |
 
 ------------------
-#### Man
+### Man
 
 |      Original     |    2 Clusters    |
 |:-----------------:|:----------------:|
@@ -80,7 +80,7 @@ K-means can also be extended for clustering of pixel color values of images by t
 | ![][man 5 clust] | ![][man 8 clust] |
 
 ------------------
-#### Lena
+### Lena
 
 |      Original     |    3 Clusters    |
 |:-----------------:|:----------------:|
@@ -91,7 +91,7 @@ K-means can also be extended for clustering of pixel color values of images by t
 | ![][lena 7 clust] | ![][lena 15 clust] |
 
 ------------------
-#### Owl
+### Owl
 
 |      Original     |    2 Clusters    |
 |:-----------------:|:----------------:|
@@ -102,7 +102,7 @@ K-means can also be extended for clustering of pixel color values of images by t
 | ![][owl 3 clust] | ![][owl 6 clust] |
 
 ------------------
-#### 3D Blobs
+### 3D Blobs
 
 |      2 Clusters     |    4 Clusters    |
 |:-----------------:|:----------------:|
@@ -113,7 +113,7 @@ K-means can also be extended for clustering of pixel color values of images by t
 | ![][blob3d 6 clust] | ![][blob3d 8 clust] |
 
 ------------------
-#### 2D Blobs
+### 2D Blobs
 
 |      2 Clusters     |    4 Clusters    |
 |:-----------------:|:----------------:|
