@@ -44,9 +44,9 @@ K-means can also be extended for clustering of pixel color values of images by t
 |:-----------------:|:----------------:|
 | ![][traffic original] | ![][traffic 2 clust] |
 
-|    3 Clusters    |    6 Clusters    |
+|    4 Clusters    |    6 Clusters    |
 |:----------------:|:-----------------:|
-| ![][traffic 3 clust] | ![][traffic 6 clust] |
+| ![][traffic 4 clust] | ![][traffic 6 clust] |
 
 ------------------
 #### Security Camera
@@ -150,8 +150,8 @@ K-means can also be extended for clustering of pixel color values of images by t
 
 [traffic original]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/images/traffic.jpg
 [traffic 2 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/traffic/k-means_2_clusters.gif
-[traffic 3 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/traffic/k-means_5_clusters.gif
-[traffic 6 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/traffic/k-means_8_clusters.gif
+[traffic 4 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/traffic/k-means_4_clusters.gif
+[traffic 6 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/traffic/k-means_6_clusters.gif
 
 [blob2d 2 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/blob2D/k-means_2_clusters.gif
 [blob2d 4 clust]: https://github.com/IsaacCorley/K-means-GIF-Visualization/raw/master/files/gifs/blob2D/k-means_4_clusters.gif
