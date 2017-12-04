@@ -3,7 +3,7 @@ Tool for Visualizing K-means Clustering of Color/Grayscale Images or 2D/3D Data
 
 ------------------
 ### K-means
-K-means is an unsupervised learning algorithm with the objective of partitioning n observations into k clusters. The model is parameterized by the number of clusters k, and the cluster centroids defined as the mean/average of all observations in a cluster, hence the name k-means. Observations are grouped into clusters based on the minimum Euclidean (L2) distance from an observation to a cluster centroid. Centroids are initially selected at random from the dataset and then updated iteratively by averaging the new observations in each cluster. This process is typically repeated until the clusters have reached a state of convergence (clusters are no longer changing) or for some user-specified, maximum number of iterations.
+K-means is an unsupervised learning algorithm with the objective of partitioning *n* observations into *k* clusters. The model is parameterized by the number of clusters *k*, and the cluster centroids defined as the mean/average of all observations in a cluster, hence the name k-means. Observations are grouped into clusters based on the minimum Euclidean (L2) distance from an observation to a cluster centroid. Centroids are initially selected at random from the dataset and then updated iteratively by averaging the new observations in each cluster. This process is typically repeated until the clusters have reached a state of convergence (clusters are no longer changing) or for some user-specified, maximum number of iterations.
 
 Pseudocode is similar to below:
 
